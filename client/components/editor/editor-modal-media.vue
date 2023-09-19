@@ -139,6 +139,7 @@
               file-pond.mt-3(
                 name='mediaUpload'
                 ref='pond'
+                :allowPaste="True"
                 :label-idle='$t(`editor:assets.uploadAssetsDropZone`)'
                 allow-multiple='true'
                 :files='files'
